@@ -1,0 +1,104 @@
+
+h1, h2 {
+    color: #0084ff;
+    text-align: center;
+}
+
+p {
+    color: #ffffff;
+    line-height: 1.6;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Welcome Banner Slider */
+.welcome-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    /* height: 600px; */
+    padding: 0;
+}
+
+.slides {
+    display: flex;
+    /* transition: transform 5s ease-in-out; */
+    /* transition: transform 15s; */
+}
+
+.slide {
+    flex: 0 0 100%;
+    height: 290px;
+    width: 100%;
+    background-size: cover;
+    background-position-x: top;
+    background-position-y:center ;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.slide h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
+}
+
+.slide p {
+    font-size: 1.2em;
+    text-shadow: 1px 1px 3px rgb(10, 0, 0);
+}
+
+/* Controls */
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.controls span {
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0%;
+    margin: 0 20px;
+}
+
+.controls span:hover {
+    background-color: rgb(0, 255, 55);
+}
+
+/* Welcome Content */
+.welcome-content {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
